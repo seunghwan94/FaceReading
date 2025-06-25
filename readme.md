@@ -27,7 +27,14 @@
 
 ## 2. 설치 및 환경 구성
 
+> dlib 빌드가 필요하므로 CMake 및 Visual C++ Build Tools(Windows) 설치 필수
+
 [CMake 공식 사이트](https://cmake.org/download/)에서 설치
+
+```bash
+# Binary distributions : 환경에 맞게 설치 후 찍어보기
+cmake --version
+```
 
 ```bash
 # 가상환경 생성 및 활성화
@@ -39,7 +46,7 @@ pip install --upgrade pip
 pip install face_recognition pillow
 ```
 
-> dlib 빌드가 필요하므로 CMake 및 Visual C++ Build Tools(Windows) 설치 필수
+
 
 ---
 
